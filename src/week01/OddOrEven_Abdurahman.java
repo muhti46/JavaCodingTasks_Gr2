@@ -7,26 +7,23 @@ public class OddOrEven_Abdurahman {
     /*
 **Numbers -- odd & even**
 
-       Write a method that can identify  a given number is even or odd.
+      Write a method that can identify  a given number is even or odd.
 
-       EX:
+      EX:
 
-              identify(5) --> "Odd"
-              identify(6) --> "Even"
- */
+             identify(5) --> "Odd"
+             identify(6) --> "Even"
+*/
     public static void main(String[] args) {
-        // create scanner object
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the number : ");
-        int number = input.nextInt();
-        oddOrEven(number);
 
+        identify(5);
+        identify(6);
     }
-    public static void oddOrEven(int number) {
-       if (number % 2 == 0) {
-           System.out.println("Even");
-       }else {
-           System.out.println("Odd");
-       }
+    public static void identify(int n) {
+        if(n%2==0){
+            System.out.println("even");
+        }else {
+            System.out.println("odd");
+        }
     }
 }
