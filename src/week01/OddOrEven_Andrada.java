@@ -17,6 +17,10 @@ public class OddOrEven_Andrada {
         identify(6);
     }
 
+    /**
+     * return given number if it odd or even
+     * @param number int
+     */
     public static void identify(int number) {
         if (number % 2 == 0) {
             System.out.println("Even");
