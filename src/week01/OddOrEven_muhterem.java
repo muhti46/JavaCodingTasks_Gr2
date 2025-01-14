@@ -16,6 +16,11 @@ public class OddOrEven_muhterem {
         identify(5);
         identify(6);
     }
+
+    /**
+     * return given if it even or odd number
+     * @param n
+     */
     public static void identify(int n) {
         if(n%2==0){
             System.out.println("even");
