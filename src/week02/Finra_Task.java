@@ -12,18 +12,19 @@ public class Finra_Task {
  public static void finraMethod(int number){
       //we create for loop for itereting throw each number
         for (int i = 0 ; i<=number; i++){
-           //we create if condition for printing FIN if number i is divisible by 3
-            if(i % 3 == 0){
-                System.out.println("FIN");
-           //if number is divisible by 5 == 0 we print RA
-            }else if (i % 5 == 0 ){
-                System.out.println("RA");
-           //if number is divisible of both 3 and 5, print "FINRA" instead of the number
-            } else if (i % 5 == 0 && i% 3 == 0) {
+            //if number is divisible of both 3 and 5, print "FINRA" instead of the number
+            if(i % 3 == 0 && i % 5 == 0){
                 System.out.println("FINRA");
+                //we create if condition for printing FIN if number i is divisible by 3
+            }else if (i % 3 == 0 ){
+                System.out.println("FIN");
+                //if number is divisible by 5 == 0 we print RA
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
             }else{
                 System.out.println(i);
             }
+
         }
     }
 }
