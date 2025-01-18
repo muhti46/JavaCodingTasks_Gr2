@@ -8,7 +8,6 @@ public class FINRA_Mustafa {
      * print "RA" instead of the number.
      * For numbers that are a multiple of both 3 and 5, print "FINRA" instead of
      * the number.
-     * @param args
      */
     public static void main(String[] args) {
         for (int i = 1; i <=30 ; i++) {
