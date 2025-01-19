@@ -31,6 +31,7 @@ public class FINRA_Abdurahman {
                 System.out.println(i + " is RA.");
             }else {
                 System.out.println(i + " is number.");
+
             }
         }
     }
