@@ -11,16 +11,16 @@ public class FINRA_Abdurahman {
  */
     public static void main(String[] args) {
 
-        finra(3);
+        finra();
     }
 
     /**
      * return given number if are a multiple of 3, print "FIN"
      * return given number if are a multiple of 5, print "RA"
      * return given number if are a multiple of 3 and 5, print "FINRA"
-     * @param num
+     * @param
      */
-    public static void finra(int num) {
+    public static void finra() {
 
         for (int i = 1; i <= 30; i++) {
             if (i%3 == 0 && i%5 == 0) {
