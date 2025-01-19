@@ -18,7 +18,7 @@ public class FINRA_Abdurahman {
      * return given number if are a multiple of 3, print "FIN"
      * return given number if are a multiple of 5, print "RA"
      * return given number if are a multiple of 3 and 5, print "FINRA"
-     * @param
+     *
      */
     public static void finra() {
 
