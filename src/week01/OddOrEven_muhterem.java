@@ -1,7 +1,9 @@
 package week01;
 
 public class OddOrEven_muhterem {
+    // codes from Zack
     // codes from Muhterem
+
     /*
 **Numbers -- odd & even**
 
