@@ -12,6 +12,11 @@ Write a method that can identify a given number is even or odd
         identify(5);
         identify(6);
     }
+
+    /**
+     * return given number if it is odd or even number
+     * @param num int
+     */
     public static void identify(int num){
         if (num % 2 == 1) {
             System.out.println("Odd");
