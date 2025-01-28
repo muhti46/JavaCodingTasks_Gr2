@@ -16,9 +16,7 @@ Using third variable to swapping
         num2=temp;// assign temp to num2
         System.out.println("After swapping num1= " + num1);
         System.out.println("After swapping num2= " + num2);
-
-
-
+        
 /*
 Using math logic to swapping--> addition and subtraction
  */
