@@ -4,7 +4,7 @@ package week03;
 Swap two integer variable values
 (including both ways; with using a third variable and without it)
  */
-public class swapVariables {
+public class swapTwoVariables {
     public static void main(String[] args) {
 
         int var01 = 12;
