@@ -1,9 +1,6 @@
 package week01;
 
-public class OddOrEven_muhterem {
-    // codes from Zack
-    // codes from Muhterem
-
+public class OddOrEven_elif {
     /*
 **Numbers -- odd & even**
 
@@ -20,10 +17,6 @@ public class OddOrEven_muhterem {
         identify(6);
     }
 
-    /**
-     * return given if it even or odd number
-     * @param n
-     */
     public static void identify(int n) {
         if(n%2==0){
             System.out.println("even");
