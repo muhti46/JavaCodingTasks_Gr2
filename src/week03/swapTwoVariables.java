@@ -23,7 +23,6 @@ public class swapTwoVariables {
         System.out.println("After swap: var02 = "+var02);
 
 
-
-    }
+   }
 
 }
