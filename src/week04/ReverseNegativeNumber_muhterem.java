@@ -48,5 +48,4 @@ Convert the number to a string, reverse it, and parse back to an integer
         String reversed = new StringBuilder(str).reverse().toString();
         return -Integer.parseInt(reversed);//Convert back to integer and return it with negative sign
     }
-
 }
