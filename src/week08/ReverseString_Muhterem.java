@@ -1,6 +1,6 @@
 package week08;
 
-public class ReverseString {
+public class ReverseString_Muhterem {
 
     public static void main(String[] args) {
         String str = "ABCD";
